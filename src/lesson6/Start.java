@@ -13,6 +13,7 @@ public class Start {
 class HomeWorksChecker implements AutoCloseable {
     @Override
     public void close() {
-        throw new ClassCastException("ClassCastException");
+        throw new ArrayIndexOutOfBoundsException("ArrayIndexOutOfBoundsException");
     }
 }
+
